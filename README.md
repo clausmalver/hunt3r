@@ -37,7 +37,7 @@ To search for emails associated with a domain, use the following command:
 python hunt3r.py -d example.com
 ```
 
-This will retrieve email addresses associated with the domain `example.com` and print them along with the sources where they were found.
+This will retrieve email addresses associated with the domain `example.com` and print them.
 
 ### Email Verification
 
