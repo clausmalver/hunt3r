@@ -1,5 +1,5 @@
 # Hunt3r
-Hunt3r  is a Python script tool that interacts with the Hunter.io API to perform domain search and email verification. It provides a convenient command-line interface to search for emails associated with a domain and to verify the validity of an email address.
+Hunt3r is a very small Python script tool that interacts with the Hunter.io API to perform domain search and email verification. It provides a convenient command-line interface to search for emails associated with a domain and to verify the validity of an email address.
 
 ## Features
 
@@ -23,10 +23,12 @@ Hunt3r  is a Python script tool that interacts with the Hunter.io API to perform
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file in the project directory and add your Hunter.io API key:
+4. Add your Hunter.io API key:
    ```sh
    echo "API_KEY=YOUR_HUNTER_API_KEY" > .env
    ```
+
+Replace `"YOUR_HUNTER_API_KEY"` in the installation steps with your actual Hunter.io API key.
 
 ## Usage
 
@@ -51,7 +53,3 @@ This will verify the email address `john@example.com` and print its status and r
 ## Sources
 
 - [Hunter.io API](https://hunter.io/api/v2/docs) - The script interacts with the Hunter.io API to perform domain search and email verification.
-
-## License
-
-Replace `"YOUR_HUNTER_API_KEY"` in the installation steps with your actual Hunter.io API key.
